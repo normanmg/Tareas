@@ -1,0 +1,30 @@
+public class ClassEjercicio8 {
+    public void Dia1(char dia1, int x)
+    {
+        switch(dia1)
+                {
+                    case 'L':case 'l': x=0;break;
+                    case 'M':case 'm': x=1;break;
+                    case 'X':case 'x': x=2;break;
+                    case 'J':case 'j': x=3;break;
+                    case 'V':case 'v': x=4;break;
+                    case 'S':case 's': x=5;break;
+                    case 'D':case 'd': x=6;break;
+                    default: System.out.println("Numero fuera de rango");break;
+                }
+              }
+    public void Dia(int dia)
+    {
+        switch(dia)
+                {
+            case 0: System.out.println("Domingo");break;
+            case 1: System.out.println("Lunes");break;
+            case 2: System.out.println("Martes");break;
+            case 3: System.out.println("Miercoles");break;
+            case 4: System.out.println("Jueves");break;
+            case 5: System.out.println("Viernes");break;
+            case 6: System.out.println("Sabado");break;
+            default: System.out.println("Numero fuera de rango");break;  
+                }
+    }
+}
